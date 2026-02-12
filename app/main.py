@@ -8,8 +8,8 @@ my_favourite_films = [
     "Pulp Fiction",
     "The Good, the Bad and the Ugly",
     "The Matrix",
-] #tuple
-profile_info = ("michel", "michel@gmail.com", "12345678") #list
+] #list
+profile_info = ("michel", "michel@gmail.com", "12345678") #tuple
 marks = {
     "John": 4,
     "Sergio": 3,
@@ -17,5 +17,5 @@ marks = {
 collection_of_coins = {1, 2, 25} #set
 
 sorted_variables = {"mutable":
-                    [profile_info, marks, collection_of_coins]
-                    "immutable":[lucky_number, pi, one_is_a_prime_number, name, my_favourite_films]}
+                    [my_favorite_films, marks, collection_of_coins],
+                    "immutable":[lucky_number, pi, one_is_a_prime_number, name, profile_info]}
